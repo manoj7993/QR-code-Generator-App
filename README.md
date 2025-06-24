@@ -19,8 +19,11 @@ Simple and adaptive interface design
 
 📁 File Structure
 
-├── index.html       # HTML layout of the web app
+├── index.html # HTML layout of the web app
+
 ├── style.css        # CSS styles for design and layout
+
+
 └── main.js          # JavaScript for QR code generation and interaction
 
 🧑‍💻 How to Run
@@ -37,7 +40,7 @@ Use Save Image to download the QR code, or Clear to start over.
 
 🖼️ Preview
 
-You can include a screenshot of the app interface here:
+![Screenshot 2025-06-23 202247](https://github.com/user-attachments/assets/eaef286b-1914-4323-90c9-9cf981727a32)
 
 
 🧰 Tech Stack
@@ -62,6 +65,4 @@ Exports only to PNG format
 
 QRCode generation handled by QRCode.js
 
-📄 License
 
-This project is licensed under the MIT License.
