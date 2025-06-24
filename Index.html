@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Instant QR Builder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="qr-generator-container">
+    <header>
+      <h2>Create Your QR Code</h2>
+    </header>
+    <section class="input-section">
+      <label for="qr-data">Text or Link:</label>
+      <input type="text" id="qr-data" placeholder="Type something to encode..." />
+    </section>
+    <section class="options-section">
+      <label for="qr-dimension">QR Size:</label>
+      <select id="qr-dimension">
+        <option value="100">Tiny</option>
+        <option value="160" selected>Standard</option>
+        <option value="220">Big</option>
+      </select>
+    </section>
+    <section class="actions-section">
+      <button id="create-qr">Create QR</button>
+      <button id="clear-fields">Clear</button>
+      <button id="save-qr">Save Image</button>
+    </section>
+    <section id="qr-result"></section>
+  </main>
+  <!-- QRCode.js library -->
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
