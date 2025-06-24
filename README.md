@@ -30,7 +30,7 @@ Simple and adaptive interface design
 
 Clone the repository or download it manually:
 
-git clone https://github.com/your-username/qr-code-generator.git
+git clone https://github.com/manoj7993/qr-code-generator.git
 
 Open index.html in a browser (no additional setup required).
 
